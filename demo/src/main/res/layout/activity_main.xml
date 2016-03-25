@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <cn.studyou.library.view.BannerLayout
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        app:autoPlayDuration="8000"
+        app:defaultImage="@mipmap/ic_launcher"
+        app:indicatorMargin="10dp"
+        app:indicatorPosition="rightBottom"
+        app:indicatorShape="oval"
+        app:indicatorSpace="2dp"
+        app:scrollDuration="1100"
+        app:selectedIndicatorColor="?attr/colorPrimary"
+        app:selectedIndicatorHeight="6dp"
+        app:selectedIndicatorWidth="6dp"
+        app:unSelectedIndicatorColor="#99ffffff"
+        app:unSelectedIndicatorHeight="6dp"
+        app:unSelectedIndicatorWidth="6dp" />
+</RelativeLayout>
